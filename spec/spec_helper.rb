@@ -18,3 +18,4 @@ end
 
 # Configure Capybara to test against the application above.
 Capybara.app = app
+#explicity tell Capybara that the app we're testing against is defined in config.ru
